@@ -1,0 +1,20 @@
+{
+  "name": "static-site-hosting-and-continous-delivery",
+  "version": "0.1.0",
+  "bin": {
+    "static-site-hosting-and-continous-delivery": "bin/static-site-hosting-and-continous-delivery.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.36.1",
+    "aws-cdk": "1.36.1",
+    "jest": "^25.5.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.36.1"
+  }
+}
