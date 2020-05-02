@@ -3,8 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-    commands:
-      - 
+     - nodejs: 10
   build:
     commands:
-      -
+      - npm run build
