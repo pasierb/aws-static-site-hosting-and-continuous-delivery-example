@@ -5,18 +5,15 @@
     "app-stack": "bin/app-stack.js"
   },
   "scripts": {
-    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
-    "cdk": "cdk",
-    "test": "jest"
+    "build": "echo \"Your webpack/rollup/parcel/typescript command goes here\" && exit 0",
+    "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.36.1",
     "@aws-cdk/aws-cloudfront": "^1.36.1",
     "@aws-cdk/aws-codebuild": "^1.36.1",
     "@aws-cdk/aws-s3": "^1.36.1",
     "@aws-cdk/core": "1.36.1",
-    "aws-cdk": "1.36.1",
-    "jest": "^25.5.0"
+    "aws-cdk": "1.36.1"
   },
   "dependencies": {}
 }
