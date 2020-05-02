@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.36.1",
+    "@aws-cdk/aws-cloudfront": "^1.36.1",
     "@aws-cdk/aws-codebuild": "^1.36.1",
     "@aws-cdk/aws-s3": "^1.36.1",
     "@aws-cdk/core": "1.36.1",
