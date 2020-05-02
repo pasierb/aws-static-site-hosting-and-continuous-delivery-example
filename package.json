@@ -1,5 +1,5 @@
 {
-  "name": "static-site-hosting-and-continous-delivery",
+  "name": "aws-static-site-hosting-and-continous-delivery-example",
   "version": "0.1.0",
   "bin": {
     "app-stack": "bin/app-stack.js"
