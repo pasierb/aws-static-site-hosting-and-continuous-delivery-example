@@ -1,5 +1,5 @@
 {
-  "app": "node bin/static-site-hosting-and-continous-delivery.js",
+  "app": "node bin/app-stack.js",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true"
