@@ -1,17 +1,15 @@
-# Welcome to your CDK JavaScript project!
+# Static site hosting and continuous delivery example
 
-This is a blank project for JavaScript development with CDK.
+## Infrastructure
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
+- __GitHub__ to host source code
+- __AWS S3__ to host static files
+- __AWS Cloudfront__ as CDN
+- __AWS Codebuild__ for continuous delivery pipeline
 
-## Useful commands
+### Github authentication
 
- * `npm run test`         perform the jest unit tests
- * `cdk deploy`           deploy this stack to your default AWS account/region
- * `cdk diff`             compare deployed stack with current state
- * `cdk synth`            emits the synthesized CloudFormation template
-
-## Github authentication
+__!!!WARNING!!!__ this is a global setting per account.
 
 ```bash
 aws codebuild import-source-credentials --server-type GITHUB --auth-type PERSONAL_ACCESS_TOKEN --token <token_value>
